@@ -1,0 +1,20 @@
+.game {
+}
+
+.game-board {
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    flex-wrap: wrap;
+}
+
+.square {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #999;
+    box-sizing: border-box;
+    font-size: 40px;
+    text-align: center;
+    float: left;
+    background-color: white;
+}
